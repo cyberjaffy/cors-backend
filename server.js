@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 // ✔️ Enable CORS (when you fix it)
 app.use(cors({
-  origin: 'https://YOUR_STATIC_WEB_APP.azurestaticapps.net'
+  origin: 'https://happy-desert-04dc06410.2.azurestaticapps.net'
 }));
 
 app.get('/api/hello', (req, res) => {
